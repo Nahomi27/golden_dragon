@@ -1,18 +1,20 @@
 @import url(./vars.css);
 
-html{font-size: 16px ;/*se declara el tamaño original de las letras*/
+html {
+    font-size: 16px;
+    /*se declara el tamaño original de las letras*/
 }
 
-body{
-  background: var(--clr-white);
-  display: grid;
-  font-family: var(--ff-main);
-  margin: 0;
-  padding: 0;
+body {
+    background: var(--clr-white);
+    display: grid;
+    font-family: var(--ff-main);
+    margin: 0;
+    padding: 0;
 }
 
 /*section of logo*/
-.top-page{
+.top-page {
     position: absolute;
     width: 100%;
     height: 10rem;
@@ -20,7 +22,7 @@ body{
 }
 
 /*top nav*/
-.top-nav{
+.top-nav {
     align-items: center;
     display: flex;
     font-weight: var(--fw-rg);
@@ -28,22 +30,23 @@ body{
     margin-top: 10.3rem;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     align-items: center;
     padding: 0;
-    gap: 1rem; 
+    gap: 1rem;
     list-style-type: none;
 }
 
-.nav-list-link{
+.nav-list-link {
     text-decoration: none;
     color: var(--clr-black);
     font-size: var(--fs-md);
 }
+
 /*top nav*/
 
-.hero-container{
+.hero-container {
     background: url(../imgs/Starters.jpg);
     background-position: center;
     background-size: cover;
@@ -56,7 +59,7 @@ body{
     height: 25rem;
 }
 
-.hero-container{
+.hero-container {
     align-items: center;
     align-content: center;
     text-align: center;
@@ -65,14 +68,88 @@ body{
     height: 28rem;
 }
 
-.hero-title{
-    font-size: var(--fs-xl); 
+.hero-title {
+    font-size: var(--fs-xl);
     font-weight: var(--fw-bk);
     margin: auto;
     padding-top: 11rem;
 }
 
+/*menu*/
+.menu-container {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.dishes-container {
+    display: grid;
+    width: 80vw;
+    margin: 4rem auto;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.dish {
+    border: 2px solid var(--clr-gold);
+    display: grid;
+    background: var(--clr-white);
+    border-radius: 2rem;
+    text-align: left;
+}
+
+/*image container*/
+.img-container {
+    border: 2px solid var(--clr-gold);
+    border-radius: 2rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.dish-img{
+    display: block;
+    width: 100%;
+    height: 10rem;
+}
+/*image container*/
 
 
+/*dish info*/
+.dish-title{
+    margin-top: 0.5rem;
+    font-weight: var(--fw-md);
+    font-size: var(--fs-md);
+}
+
+.price{
+    display: flex;
+    float: right;
+}
+
+.dish-description{
+    font-size: var(--fs-nm);
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.padding{
+    padding: 1rem 1rem;
+}
+/*dish info*/
 
 
+/*see more btn*/
+.btn{
+    display: block;
+    align-items: center;
+    text-align: center;
+    background: var(--clr-gold);
+    color: var(--clr-white);
+    font-weight: var(--fw-md);
+    font-size: var(--fs-md);
+    padding: .5rem 2rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+/*see more btn*/
