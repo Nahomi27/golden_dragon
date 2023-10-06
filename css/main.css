@@ -83,7 +83,7 @@ body {
 
 .dishes-container {
     display: grid;
-    width: 80vw;
+    width: 85vw;
     margin: 4rem auto;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     gap: 1.5rem;
@@ -92,7 +92,7 @@ body {
 .dish {
     border: 2px solid var(--clr-gold);
     display: grid;
-    background: var(--clr-white);
+    background: none;
     border-radius: 2rem;
     text-align: left;
 }
