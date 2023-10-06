@@ -1,0 +1,78 @@
+@import url(./vars.css);
+
+html{font-size: 16px ;/*se declara el tamaño original de las letras*/
+}
+
+body{
+  background: var(--clr-white);
+  display: grid;
+  font-family: var(--ff-main);
+  margin: 0;
+  padding: 0;
+}
+
+/*section of logo*/
+.top-page{
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+    background: var(--clr-wine);
+}
+
+/*top nav*/
+.top-nav{
+    align-items: center;
+    display: flex;
+    font-weight: var(--fw-rg);
+    justify-content: center;
+    margin-top: 10.3rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 1rem; 
+    list-style-type: none;
+}
+
+.nav-list-link{
+    text-decoration: none;
+    color: var(--clr-black);
+    font-size: var(--fs-md);
+}
+/*top nav*/
+
+.hero-container{
+    background: url(../imgs/Starters.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--clr-white);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 25rem;
+}
+
+.hero-container{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: var(--clr-white);
+    width: 100%;
+    height: 28rem;
+}
+
+.hero-title{
+    font-size: var(--fs-xl); 
+    font-weight: var(--fw-bk);
+    margin: auto;
+    padding-top: 11rem;
+}
+
+
+
+
+
