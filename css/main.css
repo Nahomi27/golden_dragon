@@ -88,6 +88,14 @@ body {
     gap: 1.5rem;
 }
 
+.dishes-container-2 {
+    display: grid;
+    width: 41.7vw;
+    margin: 4rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
 .dish {
     border: 2px solid var(--clr-gold);
     display: grid;
@@ -151,6 +159,46 @@ body {
 }
 /*see more btn*/
 
+/*footer menu page*/
+.footer{
+    background: var(--clr-wine);
+    width: 100%;
+    display: grid;
+    margin-top: 4rem;
+}
+
+.footer-content{
+    display: grid;
+    width: 85vw; 
+    margin: 2.5rem auto;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 2rem;
+    color: var(--clr-white);
+    line-height: 1.4;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    gap: 3.5rem;
+}
+/*footer menu page*/
+
+/*nav bottom*/
+.nav-bottom-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-bottom-link{
+    color: var(--clr-white);
+    text-decoration: none;
+}
+/*nav bottom*/
+
+
+
+
 /*specific dish info*/
 
 .dish-container {
@@ -196,7 +244,7 @@ body {
 
 }
 
-.dish-description {
+.description {
 
     margin-top: 5px;
     margin-bottom: 0;
