@@ -150,3 +150,109 @@ body {
     margin-bottom: 0.5rem;
 }
 /*see more btn*/
+
+/*specific dish info*/
+
+.dish-container {
+
+    display: flex;
+    margin-top: 10.3rem;
+    padding: 3rem;
+}
+
+.dish-information {
+
+    display: grid;
+    margin-left: 3rem;
+    margin-right: 18rem;
+}
+
+.img-dish {
+
+    width: 22rem;
+    border-radius: 50%;
+    margin-left: 15rem;
+
+}
+
+.img-star {
+
+    width: 2rem;
+}
+
+.star-btn {
+
+    position: absolute;
+    background: var(--clr-white);
+    border-radius: 5rem;
+    border: none;
+    right: 21rem;
+    top: 14rem;
+}
+
+.dish-name {
+
+    margin-bottom: 10px;
+
+}
+
+.dish-description {
+
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.dish-caracteristics {
+
+    display: flex;
+
+}
+
+.margin-details {
+
+    margin-bottom: 0;
+}
+
+.margin-text {
+
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.divider {
+
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-right: 2px solid var(--clr-gold);
+    height: 2rem;
+}
+
+.imgs-related-container{
+
+    display: flex;
+
+}
+
+.img-related{
+
+    width: 5rem;
+    border-radius: 25%;
+    margin-right: 2rem;
+}
+
+/*specific dish info*/
+
+/*footer*/
+.footer-container{
+
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    height: 6rem;
+    background: var(--clr-wine);
+}
+/*footer*/
