@@ -43,7 +43,6 @@ body {
     color: var(--clr-black);
     font-size: var(--fs-md);
 }
-
 /*top nav*/
 
 .hero-container {
@@ -111,9 +110,7 @@ body {
     width: 100%;
     height: 10rem;
 }
-
 /*image container*/
-
 
 /*dish info*/
 .dish-title {
@@ -136,9 +133,7 @@ body {
 .padding {
     padding: 1rem 1rem;
 }
-
 /*dish info*/
-
 
 /*see more btn*/
 .btn {
@@ -154,5 +149,4 @@ body {
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
-
 /*see more btn*/
