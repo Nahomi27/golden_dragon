@@ -20,6 +20,7 @@ body {
     width: 100%;
     height: 12rem;
     background: var(--clr-wine);
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -310,7 +311,7 @@ body {
 
     bottom: 0rem;
     width: 100%;
-    height: 6rem;
+    height: 10rem;
     background: var(--clr-wine);
 }
 /*footer*/
