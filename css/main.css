@@ -54,9 +54,6 @@ body {
 /*top nav*/
 
 .hero-container {
-    background: url(../imgs/img-home_page.png);
-    background-position: center;
-    background-size: cover;
     color: var(--clr-white);
     text-align: center;
     align-items: center;
@@ -66,11 +63,23 @@ body {
     height: 28rem;
 }
 
+.home-page-bg{
+    background: url(../imgs/img-home_page.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.starters-bg{
+    background: url(../imgs/Starter.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .hero-title {
     font-size: var(--fs-xl);
     font-weight: var(--fw-bk);
     margin: auto;
-    padding-top: 8rem;
+    padding-top: 9.5rem;
 }
 
 .hero-subtitle {
@@ -80,7 +89,7 @@ body {
 
 /*options*/
 
-.options-container {
+/*.options-container {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -95,6 +104,26 @@ body {
     border: 2px solid var(--clr-gold);
     border-radius: 2rem;
     background-color: var(--clr-white);
+}*/
+.container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.categories-container {
+    display: grid;
+    width: 85vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.category {
+    border: 2px solid var(--clr-gold);
+    display: grid;
+    background: none;
+    border-radius: 2rem;
+    text-align: center;
 }
 
 .vector-img {
@@ -102,11 +131,8 @@ body {
 }
 
 .font-options {
-
-    font-family: var(--ff-main);
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
-    margin-top: 0.5rem;
 }
 
 /*options*/
@@ -137,7 +163,7 @@ body {
 .dishes-container {
     display: grid;
     width: 85vw;
-    margin: 4rem auto;
+    margin: 2rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
 }
@@ -145,7 +171,7 @@ body {
 .dishes-container-2 {
     display: grid;
     width: 41.7vw;
-    margin: 4rem auto;
+    margin: 2rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
 }
