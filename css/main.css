@@ -1,389 +1,67 @@
-@import url(./vars.css);
+@import url(./abstracts/vars.css);
 
-html {
-    font-size: 16px;
-    /*se declara el tamaño original de las letras*/
-}
+@import url(./base/base.css);
+@import url(./base/typography.css);
 
-body {
-    background: var(--clr-white);
-    display: grid;
-    font-family: var(--ff-main);
-    margin: 0;
-    padding: 0;
-}
+@import url(./layaout/header.css);
+@import url(./layaout/grid.css);
+@import url(./layaout/footer.css);
+@import url(./layaout/forms.css);
+@import url(./layaout/navigation.css);
 
-/*section of logo*/
-.top-page {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 12rem;
-    background: var(--clr-wine);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+@import url(./components/components.css);
 
-.img-logo{
-    width: 10%;
-}
 
-/*top nav*/
-.top-nav {
-    align-items: center;
-    display: flex;
-    font-weight: var(--fw-rg);
-    justify-content: center;
-    margin-top: 12.3rem;
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    gap: 1rem;
-    list-style-type: none;
-}
-
-.nav-list-link {
-    text-decoration: none;
-    color: var(--clr-black);
-    font-size: var(--fs-md);
-}
-/*top nav*/
-
-.hero-container {
-    color: var(--clr-white);
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    width: 100%; 
-    height: 28rem;
-}
-
-.home-page-bg{
-    background: url(../imgs/img-home_page.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.starters-bg{
-    background: url(../imgs/Starter.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.hero-title {
-    font-size: var(--fs-xl);
-    font-weight: var(--fw-bk);
-    margin: auto;
-    padding-top: 9.5rem;
-}
-
-.hero-subtitle {
-
-    font-size: var(--fs-md);
-}
-
-/*options*/
-
-/*.options-container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem auto;
-    padding: 4rem;
-    padding-bottom: 0;
-}
-
-.option-container {
-    width: 250px;
-    height: 250px;
-    border: 2px solid var(--clr-gold);
-    border-radius: 2rem;
-    background-color: var(--clr-white);
-}*/
-.container {
-    text-align: center;
-    margin-top: 5rem;
-}
-
-.categories-container {
-    display: grid;
-    width: 85vw;
-    margin: 2rem auto;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-}
-
-.category {
-    border: 2px solid var(--clr-gold);
-    display: grid;
-    background: none;
-    border-radius: 2rem;
-    text-align: center;
-}
 
 .vector-img {
     margin-top: 2rem;
 }
 
-.font-options {
-    font-size: var(--fs-md);
-    font-weight: var(--fw-md);
-}
-
-/*options*/
 
 /*space*/
-
-.img-in-the-middle{
+.img-in-the-middle {
     margin-top: 3.5rem;
-    width: 100%; 
+    width: 100%;
     height: 28rem;
 }
 
 /*space*/
 
-/*menu*/
-
-.featured-dishes-title {
-
-    font-size: var(--fs-xl);
-    padding: 2.5rem;
-}
-
-.menu-container {
-    text-align: center;
-    margin-top: 5rem;
-}
-
-.dishes-container {
-    display: grid;
-    width: 85vw;
-    margin: 2rem auto;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-}
-
-.dishes-container-2 {
-    display: grid;
-    width: 41.7vw;
-    margin: 2rem auto;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-}
-
-.dish {
-    border: 2px solid var(--clr-gold);
-    display: grid;
-    background: none;
-    border-radius: 2rem;
-    text-align: left;
-}
-
-/*image container*/
-.img-container {
-    border: 2px solid var(--clr-gold);
-    border-radius: 2rem;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-}
-
-.dish-img {
-    display: block;
-    width: 100%;
-    height: 10rem;
-}
-/*image container*/
-
-/*dish info*/
-.dish-title {
-    margin-top: 0.5rem;
-    font-weight: var(--fw-md);
-    font-size: var(--fs-md);
-}
-
-.price {
-    display: flex;
-    float: right;
-}
-
-.dish-description {
-    font-size: var(--fs-nm);
-    text-align: justify;
-    margin-bottom: 1.5rem;
-}
-
-.padding {
-    padding: 1rem 1rem;
-}
-/*dish info*/
-
-/*see more btn*/
-.btn {
-    display: block;
-    align-items: center;
-    text-align: center;
-    background: var(--clr-gold);
-    color: var(--clr-white);
-    font-weight: var(--fw-md);
-    font-size: var(--fs-md);
-    padding: .5rem 2rem;
-    border-radius: 1.5rem;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-}
-/*see more btn*/
-
-/*footer menu page*/
-.footer{
-    background: var(--clr-wine);
-    width: 100%;
-    display: grid;
-    margin-top: 4rem;
-}
-
-.footer-content{
-    display: grid;
-    width: 85vw; 
-    margin: 2.5rem auto;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-    gap: 2rem;
-    color: var(--clr-white);
-    line-height: 1.4;
-}
-
-.footer-links{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
-    gap: 3.5rem;
-}
-/*footer menu page*/
-
-/*nav bottom*/
-.nav-bottom-list{
-    padding: 0;
-    list-style-type: none;
-}
-
-.nav-bottom-link{
-    color: var(--clr-white);
-    text-decoration: none;
-}
-/*nav bottom*/
-
-
-
-
-/*specific dish info*/
-
-.dish-container {
-
-    display: flex;
-    margin-top: 10.3rem;
-    padding: 3rem;
-}
-
-.dish-information {
-
-    display: grid;
-    margin-left: 3rem;
-    margin-right: 8rem;
-    margin-top: 3rem;
-}
-
 .img-dish {
-
     width: 37rem;
     border-radius: 50%;
     margin-left: 6rem;
-
-}
-
-.img-star {
-
-    width: 2rem;
-}
-
-.star-btn {
-
-    position: absolute;
-    background: var(--clr-white);
-    border-radius: 5rem;
-    border: none;
-    right: 15rem;
-    top: 17rem;
 }
 
 .dish-name {
-
     margin-bottom: 10px;
-
 }
 
 .description {
-
     margin-top: 5px;
     margin-bottom: 0;
     margin-right: 3rem;
-
 }
 
 .dish-caracteristics {
-
     display: flex;
-
 }
 
 .margin-details {
-
     margin-bottom: 0;
 }
 
 .margin-text {
-
     margin-top: 0;
     text-align: center;
     margin-bottom: 0;
-
 }
 
-.divider {
+@media (max-width: 767.98px) {
 
-    margin-top: 2rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    border-right: 2px solid var(--clr-gold);
-    height: 2rem;
+    .container-width{
+        width: 85vw;
+    }
+
+    
 }
-
-.imgs-related-container{
-
-    display: flex;
-    margin-top: 0;
-    margin-bottom: 3rem;
-
-}
-
-.img-related{
-
-    width: 6rem;
-    border-radius: 25%;
-    margin-right: 1rem;
-}
-
-/*specific dish info*/
-
-/*footer*/
-.footer-container{
-
-    bottom: 0rem;
-    width: 100%;
-    height: 10rem;
-    background: var(--clr-wine);
-}
-/*footer*/

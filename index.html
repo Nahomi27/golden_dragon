@@ -8,7 +8,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
     <!-- google fonts -->
     <link rel="stylesheet" href="./css/main.css">
@@ -18,9 +18,18 @@
 <body>
     <header>
         <div class="top-page">
-            <img class="img-logo" src="imgs/logo-dragon.png" alt="Logo">
+           <div class="img-logo" ></div>
         </div>
         <nav class="top-nav">
+            <!--movile nav btn-->
+            <input class="mobile-check" type="checkbox">
+            <label class="mobile-btn">
+                <span>
+
+                </span>
+            </label>
+            <!--movile nav btn-->
+
             <ul class="nav-list">
                 <li><a class="nav-list-link" href="#">Home</a></li>
                 <li><a class="nav-list-link" href="#">About</a></li>
@@ -37,69 +46,42 @@
 
     <main>
         <!--options-->
-        <!--<section class="options-container">
-            <button class="option-container">
-                <img class="vector-img" src="imgs/vector-starters.png" alt="vector-starters">
-                <p class="font-options">Starters</p>
-            </button>
-            <button class="option-container">
-                <img class="vector-img" src="imgs/vector-main_course.png" alt="vector-main_course">
-                <p class="font-options">Main Course</p>
-            </button>
-            <button class="option-container">
-                <img class="vector-img" src="imgs/vector-desserts.png" alt="vector-desserts">
-                <p class="font-options">Desserts</p>
-            </button> 
-            <button class="option-container">
-                <img class="vector-img" src="imgs/vector-drinks.png" alt="vector-drinks">
-                <p class="font-options">Drinks</p>
-            </button> 
-        </section>-->
-
         <section class="container">
             <div class="categories-container">
-                <section class="category">
-                    <div>
-                        <img class="vector-img" src="imgs/vector-starters.png" alt="vector-starters">
-                    </div>
+                <button class="category">
+                    <img class="vector-img" src="imgs/vector-starters.png" alt="vector-starters">
                     <p class="font-options">Starters</p>
-                </section>
-    
-                <section class="category">
-                    <div>
-                        <img class="vector-img" src="imgs/vector-main_course.png" alt="vector-main_course">
-                    </div>
+                </button>
+
+                <button class="category">
+                    <img class="vector-img" src="imgs/vector-main_course.png" alt="vector-main_course">
                     <p class="font-options">Main Courses</p>
-                </section>
-    
-                <section class="category">
-                    <div>
-                        <img class="vector-img" src="imgs/vector-desserts.png" alt="vector-desserts">
-                    </div>
+                </button>
+
+                <button class="category">
+                    <img class="vector-img" src="imgs/vector-desserts.png" alt="vector-desserts">
                     <p class="font-options">Desserts</p>
-                </section>
-    
-                <section class="category">
-                    <div>
-                        <img class="vector-img" src="imgs/vector-drinks.png" alt="vector-drinks">
-                    </div>
+                </button>
+
+                <button class="category">
+                    <img class="vector-img" src="imgs/vector-drinks.png" alt="vector-drinks">
                     <p class="font-options">Drinks</p>
-                </section>
+                </button>
             </div>
         </section>
+        <!--options-->
 
-        
-
-
-         <!--space-->
+        <!--space-->
         <img class="img-in-the-middle" src="imgs/second-img-home_page.png" alt="secong_img-home_page">
         <!--space-->
+
         <!--menu-->
-        <section class="menu-container">
-            <h1 class=".featured-dishes-title">Featured dishes</h1>
+        <section class="container">
+            <h1 class="featured-dishes-title">Featured dishes</h1>
+
             <div class="dishes-container">
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/gold-cup.jpg" alt="Gold cup">
                     </div>
                     <section class="padding">
@@ -111,7 +93,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/kung-pao-chicken.png" alt="Kung Pao Chicken">
                     </div>
                     <section class="padding">
@@ -123,7 +105,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/orange-chicken.png" alt="Orange Chicken">
                     </div>
                     <section class="padding">
@@ -135,7 +117,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/pork-chive.png" alt="Pork and chive">
                     </div>
                     <section class="padding">
@@ -149,7 +131,7 @@
 
             <div class="dishes-container">
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/spring-rolls.png" alt="Spring Rolls">
                     </div>
                     <section class="padding">
@@ -161,7 +143,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/almond-jelly.png" alt="Almond Jelly">
                     </div>
                     <section class="padding">
@@ -173,7 +155,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/cucumber-salad.png" alt="Cucumber Salad">
                     </div>
                     <section class="padding">
@@ -185,7 +167,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/liangpi.png" alt="Liangpi">
                     </div>
                     <section class="padding">
@@ -197,9 +179,9 @@
                 </section>
             </div>
 
-            <div class="dishes-container-2">
+            <div class="dishes-container container-width">
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/corn-soup.png" alt="Corn Soup">
                     </div>
                     <section class="padding">
@@ -211,7 +193,7 @@
                 </section>
 
                 <section class="dish">
-                    <div class="img-container padding-none">
+                    <div class="img-container">
                         <img class="dish-img" src="imgs/grilled-chicken.png" alt="Grilled Chicken">
                     </div>
                     <section class="padding">
