@@ -69,5 +69,45 @@
 .img-dish {
     max-width: 100%;
     border-radius: 50%;
-    /*padding: 3.5rem;*/
+}
+
+.vector-img {
+    margin-top: 2rem;
+}
+
+
+/*space*/
+.img-in-the-middle {
+    margin-top: 3.5rem;
+    width: 100%;
+    height: 28rem;
+}
+
+/*space*/
+
+.dish-name {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-right: 3rem;
+}
+
+.dish-caracteristics {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 5fr 0fr 5fr 0fr 5fr;
+    text-align: center;
+}
+
+.margin-details {
+    margin-bottom: 0.5rem;
+}
+
+.margin-text {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
 }

@@ -31,13 +31,13 @@
 }
 
 .home-page-bg{
-    background: url(../../imgs/img-home_page.png);
+    background: url(../../imgs/homepage-bg.png);
     background-position: center;
     background-size: cover;
 }
 
 .starters-bg{
-    background: url(../../imgs/Starter.png);
+    background: url(../../imgs/starter-bg.png);
     background-position: center;
     background-size: cover;
 }
