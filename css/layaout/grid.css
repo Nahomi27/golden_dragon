@@ -42,16 +42,18 @@
 
 /*specific dish info*/
 .dish-container {
-
-    display: flex;
-    margin-top: 10.3rem;
-    padding: 3rem;
+    display: grid;
+    margin: 15rem auto;
+    margin-bottom: 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    width: 85vw;
 }
 
 .dish-information {
-
+    max-width: 100%;
     display: grid;
-    margin-left: 3rem;
-    margin-right: 8rem;
-    margin-top: 3rem;
+    margin: auto;
+    align-items: center;
+    position: relative;
 }

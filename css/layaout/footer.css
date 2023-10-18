@@ -34,11 +34,3 @@
     text-decoration: none;
 }
 /*nav bottom*/
-
-.footer-container{
-
-    bottom: 0rem;
-    width: 100%;
-    height: 10rem;
-    background: var(--clr-wine);
-}
