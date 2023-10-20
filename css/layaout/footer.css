@@ -3,7 +3,7 @@
     background: var(--clr-wine);
     width: 100%;
     display: grid;
-    margin-top: 4rem;
+    margin-top: 4rem; 
 }
 
 .footer-content{
